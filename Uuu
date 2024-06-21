@@ -1,0 +1,100 @@
+`html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>hib-s Museum</title>
+    <style>
+        /* Reset default styles */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Set background color */
+        body {
+            background-color: #fff;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Header styles */
+        header {
+            background-color: #ff99cc;
+            text-align: center;
+            padding: 1rem;
+        }
+
+        h1 {
+            color: #fff;
+            font-size: 2rem;
+        }
+
+        /* Main content styles */
+        .container {
+            max-width: 800px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        /* Gallery section */
+        .gallery {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1rem;
+        }
+
+        .gallery img {
+            max-width: 100%;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        /* Abstract painting section */
+        .abstract-painting {
+            background-color: #f9f9f9;
+            padding: 2rem;
+            text-align: center;
+        }
+
+        .abstract-painting img {
+            max-width: 100%;
+        }
+
+        /* Footer styles */
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background-color: #ff99cc;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>hib-s Museum</h1>
+    </header>
+
+    <div class="container">
+        <h2>Welcome to our virtual museum!</h2>
+        <p>Explore our collection of art, history, and culture.</p>
+
+        <div class="gallery">
+            <!-- Replace with your actual images -->
+            <img src="image1.jpg" alt="Artwork 1">
+            <img src="image2.jpg" alt="Artwork 2">
+            <!-- Add more images as needed -->
+        </div>
+
+        <div class="abstract-painting">
+            <!-- Replace with your abstract painting image -->
+            <img src="abstract_painting.jpg" alt="Abstract Painting">
+        </div>
+    </div>
+
+    <footer>
+        &copy; 2024 hib-s Museum
+    </footer>
+</body>
+</html>
